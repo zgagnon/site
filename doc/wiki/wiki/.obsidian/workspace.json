@@ -1,0 +1,176 @@
+{
+  "main": {
+    "id": "348c7cb2709f2933",
+    "type": "split",
+    "children": [
+      {
+        "id": "8ebcddbd92db8acc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "006010240eab6fe4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "49c501dc95b35d95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "adr/2023-11-02-01 Use Svelte.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6dc6c3acab6ff907",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "adr/2023-11-02-02 Use Plain Text.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "af024a47d288bafb",
+    "type": "split",
+    "children": [
+      {
+        "id": "34a46fbd241cc872",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "20f1935e3ad34c93",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b5c5629243ae6bd1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3c985231f5c1daca",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "eedff024986423c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "55206e01bfa5a5c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "879e78555aadb53f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "adr/2023-11-02-02 Use Plain Text.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1efc230a5fd012d3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "adr/2023-11-02-02 Use Plain Text.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1947fd545e4c6d44",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2bc19e36308e82ff",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "adr/2023-11-02-02 Use Plain Text.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "6dc6c3acab6ff907",
+  "lastOpenFiles": [
+    "adr/2023-11-02-01 Use Svelte.md",
+    "adr/2023-11-02-02 Use Plain Text.md",
+    "adr"
+  ]
+}
