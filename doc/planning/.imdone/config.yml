@@ -1,0 +1,70 @@
+keepEmptyPriority: true
+code:
+  include_lists:
+    - TODO
+    - DOING
+    - DONE
+    - PLANNING
+    - FIXME
+    - ARCHIVE
+    - HACK
+    - CHANGED
+    - XXX
+    - IDEA
+    - NOTE
+    - REVIEW
+lists:
+  - name: Schedulede
+    hidden: false
+    ignore: false
+    id: 83k4hv17xloh89az4
+  - name: DONE
+    hidden: false
+    ignore: true
+    id: 83k4hv17xloh89az6
+  - name: Recently Completed
+    hidden: false
+    ignore: false
+    id: 83k4hv17xloh89az7
+    filter: 'completedDate > "${14 days ago}" -completed'
+settings:
+  '0': object Object
+  openIn: default
+  editorTheme: blackboard
+  journalType: New File
+  journalPath: imdone-tasks
+  appendNewCardsTo: imdone-tasks.md
+  newCardSyntax: MARKDOWN
+  replaceSpacesWith: '-'
+  plugins: {}
+  journalTemplate: null
+  theme: dark
+  addCheckBoxTasks: !<tag:yaml.org,2002:js/undefined> ''
+  name: site
+  views: []
+  cards:
+    colors:
+      - color: yellow
+        filter: tags = "in-progress"
+      - color: red
+        filter: tags = "blocked"
+      - color: green
+        filter: tags = "done"
+    template: |
+
+      <!--
+      created:${timestamp}
+      -->
+    trackChanges: true
+    metaNewLine: !<tag:yaml.org,2002:js/undefined> ''
+    addCompletedMeta: true
+    addCheckBoxTasks: false
+    doneList: DONE
+    taskPrefix: '##'
+    tagPrefix: +
+    metaSep: ':'
+    orderMeta: true
+    maxLines: 6
+    addNewCardsToTop: true
+    defaultList: TODO
+    computed: !<tag:yaml.org,2002:js/undefined> ''
