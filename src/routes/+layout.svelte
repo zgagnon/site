@@ -24,6 +24,7 @@ $: current = $page.url;
 	</nav>
 </div>
 <div class="h-64"></div>
-<div class="flex flex-row justify-around">
+<div class="flex flex-row justify-around pb-12">
 	<slot />
 </div>
+
