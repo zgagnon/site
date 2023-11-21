@@ -30,6 +30,7 @@ lists:
 settings:
   '0': object Object
   openIn: default
+  customOpenIn: ''
   editorTheme: blackboard
   journalType: New File
   journalPath: imdone-tasks
@@ -66,5 +67,5 @@ settings:
     orderMeta: true
     maxLines: 6
     addNewCardsToTop: true
-    defaultList: TODO
+    defaultList: Schedulede
     computed: !<tag:yaml.org,2002:js/undefined> ''

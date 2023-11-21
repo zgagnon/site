@@ -6,9 +6,9 @@ export default {
 			fontFamily: {
 				quattrocento: ['Quattrocento', 'sans-serif'],
 				sacramento: ['Sacramento', 'cursive'],
-				urbanist: ['Urbanist', 'sans-serif']
-			}
-		}
+				urbanist: ['Urbanist', 'sans-serif'],
+			},
+		},
 	},
-	plugins: []
+	plugins: [],
 };

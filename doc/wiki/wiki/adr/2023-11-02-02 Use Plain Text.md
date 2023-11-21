@@ -1,4 +1,3 @@
-
 # What
 
 Use plain text in git for all tracking and documentation
