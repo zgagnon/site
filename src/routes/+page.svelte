@@ -6,7 +6,6 @@
 
 <script>
 import portrait from '$lib/assets/portrait.jpg';
-import banner from '$lib/assets/banner1.jpg';
 import scenery from '$lib/assets/scenery.jpg';
 </script>
 
