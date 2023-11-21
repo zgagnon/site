@@ -1,21 +1,21 @@
 <script lang="ts">
-import Work from './work.svelte';
+  import Work from './work.svelte'
 </script>
 
 <div class="w-[800px] mt-6">
-	<h1 class="text-5xl">Experience</h1>
-	<hr class="mb-8" />
-	<Work
-		bullets="{[
+    <h1 class="text-5xl">Experience</h1>
+    <hr class="mb-8"/>
+    <Work
+            bullets="{[
 			'Principal engineer for seed series startup. Responsible for all technical direction.',
 			'Owned vendor relationships, from selection to implementation.',
 			'Instrumental in company strategy, introduced frameworks to analyze potential customer segments, assess needs, and identify product opportunities.',
 		]}"
-		location="Beacon NY"
-		name="Orgspace"
-		time="Oct 2021 - Present"
-		title="Principle Engineer"
-	/>
+            location="Beacon NY"
+            name="Orgspace"
+            time="Oct 2021 - Present"
+            title="Principal Engineer"
+    />
 
 	<Work
 		bullets="{[
