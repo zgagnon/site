@@ -2,7 +2,7 @@
 import Work from './work.svelte';
 </script>
 
-<div class="w-[800px]">
+<div class="w-[800px] mt-6">
 	<h1 class="text-5xl">Experience</h1>
 	<hr class="mb-8" />
 	<Work
@@ -38,7 +38,7 @@ import Work from './work.svelte';
 		location="New York NY"
 		name="Meetup"
 		time="Aug 2018 - Apr 2020"
-		title="Sowftware Engineering Manager"
+		title="Software Engineering Manager"
 	/>
 
 	<Work
@@ -117,5 +117,12 @@ import Work from './work.svelte';
 		title="Lead Software Quality Assurance / Software Developer"
 	/>
 
-	<h1 class="text-5xl">Experience</h1>
+	<h1 class="text-5xl">Education</h1>
+	<Work
+		bullets="{[]}"
+		location="Denver CO"
+		name="Metropolitan State University of Denver"
+		time="2006 - 2010"
+		title="B.S. Computer Science"
+	/>
 </div>
