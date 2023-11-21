@@ -27,4 +27,3 @@ $: current = $page.url;
 <div class="flex flex-row justify-around pb-12">
 	<slot />
 </div>
-
