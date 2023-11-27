@@ -13,7 +13,7 @@ import scenery from '$lib/assets/scenery.jpg';
 	<div class="flex-1"></div>
 
 	<div class="w-[800px] drop-shadow-bg-slate-50 rounded-2xl pt-6 grid grid-cols-2 gap-6">
-		<div class="p-3 drop-shadow rounded-2xl bg-slate-50 space-y-6 flex flex-col">
+		<div class="p-3  bg-slate-50 space-y-6 flex flex-col">
 			<p>
 				I am a seasoned technology leader with a rich and diverse career in software engineering and
 				management roles. Most recently, I have been Principal Engineer, responsible for setting the
@@ -42,7 +42,7 @@ import scenery from '$lib/assets/scenery.jpg';
 			/>
 		</div>
 
-		<div class="p-3 drop-shadow rounded-2xl bg-slate-50 space-y-6 flex flex-col">
+		<div class="p-3  bg-slate-50 space-y-6 flex flex-col">
 			<p>
 				My career spans roles in software engineering and leadership. I have worked in a variety of
 				industries, including high impact ones such as healthcare and finance. I have direct
@@ -53,10 +53,12 @@ import scenery from '$lib/assets/scenery.jpg';
 				I have a strong grounding in agile fundamentals that apply well to a diversity of
 				situations, both technical and organizational. Coupled with my experience growing indidiuals
 				and teams, this makes me a leader in technical innovation and improving workflow efficiency.
-				In every aspect of my career, I strive to have an impact larger than myself.
+				 I've also been a speaker and organizer of several conferences and meetups.
+				In every aspect of my career, I strive to have an impact larger than myself and
+				elevate those around me.
 			</p>
 		</div>
-		<div class="p-3 drop-shadow rounded-2xl bg-slate-50 space-y-6 flex flex-col col-span-2">
+		<div class="p-3 bg-slate-50 space-y-6 flex flex-col col-span-2">
 			<p>
 				Outside of work, I enjoy a variety of hobbies. I am an avid outdoorswoman, enjoying
 				multi-day backpacking trips, camping, and exploring the small towns of the Hudson Valley by
@@ -64,9 +66,7 @@ import scenery from '$lib/assets/scenery.jpg';
 			</p>
 			<p>
 				I have a passion for learning, including a love of languages. I have been studying Japanese
-				for several years. I also enjoy reading, geology, stationery, and craft. I've also been a
-				speaker and organizer of several conferences and meetups, and I'm passionate about elevating
-				those around me in the industry.
+				for several years. I also enjoy reading, geology, stationery, and craft.
 			</p>
 		</div>
 	</div>
