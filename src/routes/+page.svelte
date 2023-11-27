@@ -7,6 +7,7 @@
 <script>
 import portrait from '$lib/assets/portrait.jpg';
 import scenery from '$lib/assets/scenery.jpg';
+import speaking from '$lib/assets/speaking.png';
 </script>
 
 <div class="flex flex-row space-x-6">
@@ -36,8 +37,8 @@ import scenery from '$lib/assets/scenery.jpg';
 		</div>
 		<div class="flex flex-col justify-around">
 			<img
-				src="{scenery}"
-				alt="A misty morning scene in the Hudson Valley"
+				src="{speaking}"
+				alt="Zoe Gagnon speaking at QCon New York"
 				class="rounded w-full block float-right drop-shadow"
 			/>
 		</div>
@@ -58,7 +59,8 @@ import scenery from '$lib/assets/scenery.jpg';
 				elevate those around me.
 			</p>
 		</div>
-		<div class="p-3 bg-slate-50 space-y-6 flex flex-col col-span-2">
+
+		<div class="p-3 bg-slate-50 space-y-6 flex flex-col">
 			<p>
 				Outside of work, I enjoy a variety of hobbies. I am an avid outdoorswoman, enjoying
 				multi-day backpacking trips, camping, and exploring the small towns of the Hudson Valley by
@@ -68,6 +70,13 @@ import scenery from '$lib/assets/scenery.jpg';
 				I have a passion for learning, including a love of languages. I have been studying Japanese
 				for several years. I also enjoy reading, geology, stationery, and craft.
 			</p>
+		</div>
+		<div class="flex flex-col justify-around">
+			<img
+					src="{scenery}"
+					alt="A misty morning scene in the Hudson Valley"
+					class="rounded w-full block float-right drop-shadow"
+			/>
 		</div>
 	</div>
 
