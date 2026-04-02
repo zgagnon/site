@@ -2,9 +2,9 @@
 
 ## Critical
 
-1. **Invalid HTML attribute** — `+layout.svelte:20` has a bare `a` attribute on the banner div. Remove it.
+1. ~~**Invalid HTML attribute** — `+layout.svelte:20` has a bare `a` attribute on the banner div. Remove it.~~ DONE
 
-2. **Multiple h1 per page** — Layout has `h1` for "Zoe Gagnon", and pages add their own `h1`s. Resume page has three (`Experience`, `Education`, `Organization`). Only one `h1` per page; page titles should be `h2`.
+2. ~~**Multiple h1 per page** — Layout has `h1` for "Zoe Gagnon", and pages add their own `h1`s. Resume page has three (`Experience`, `Education`, `Organization`). Only one `h1` per page; page titles should be `h2`.~~ DONE
 
 ## Important
 

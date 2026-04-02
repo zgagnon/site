@@ -19,7 +19,6 @@ let dropdownEl;
 <div class="fixed w-full z-50">
 	<div
 		class="w-full h-64 object-cover object-center brightness-75 flex flex-col justify-around pl-6"
-		a
 		style="background-image: url({banner})"
 	>
 		<h1 class="text-9xl text-white font-sacramento">Zoe Gagnon</h1>

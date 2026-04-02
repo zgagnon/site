@@ -146,7 +146,7 @@
 </svelte:head>
 
 <div class="font-urbanist max-w-xl mx-auto px-4 py-8">
-  <h1 class="text-2xl font-bold">5K Race Prep Plan</h1>
+  <h2 class="text-2xl font-bold">5K Race Prep Plan</h2>
   <p class="text-stone-400 text-sm mt-1">10-week progressive build · effort over pace</p>
 
   <div class="flex gap-3 items-end flex-wrap mt-6">

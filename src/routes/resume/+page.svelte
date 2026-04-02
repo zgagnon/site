@@ -5,7 +5,7 @@
 
 <div class="w-[800px] mt-6">
     <a class="text-blue-500" href="/files/resume.pdf">Download PDF</a>
-    <h1 class="text-4xl">Experience</h1>
+    <h2 class="text-4xl">Experience</h2>
     <hr class="mb-4"/>
     <Work
             bullets="{[
@@ -119,7 +119,7 @@
             title="Lead Software Quality Assurance / Software Developer"
     />
 
-    <h1 class="text-4xl">Education</h1>
+    <h2 class="text-4xl">Education</h2>
     <Work
             bullets="{[]}"
             location="Denver CO"
@@ -127,7 +127,7 @@
             time="2006 - 2010"
             title="B.S. Computer Science"
     />
-    <h1 class="text-4xl">Organization and Public Appearances</h1>
+    <h2 class="text-4xl">Organization and Public Appearances</h2>
     <Project
             bullets="{[
 			'Write/Speak/Code was an 501c(3) organization dedicated to elevating women and non-binary people in thought leadership. As Treasurer, I had responsibility for ensuring the organization was compliant with all\n' +
