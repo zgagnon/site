@@ -11,8 +11,20 @@
 			"handle": "filesystem"
 		},
 		{
+			"src": "^/?(?:/__data.json)?$",
+			"dest": "/"
+		},
+		{
+			"src": "^/resume/?(?:/__data.json)?$",
+			"dest": "/resume"
+		},
+		{
+			"src": "^/run/?(?:/__data.json)?$",
+			"dest": "/run"
+		},
+		{
 			"src": "/.*",
-			"dest": "/fn"
+			"dest": "/![-]/catchall"
 		}
 	],
 	"overrides": {}
