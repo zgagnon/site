@@ -3,7 +3,7 @@ let
 
   shell = pkgs.mkShell {
     nativeBuildInputs = [
-      pkgs.nodejs-18_x
+      pkgs.nodejs
       pkgs.nodePackages.pnpm
     ];
 
