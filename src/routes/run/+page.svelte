@@ -145,11 +145,23 @@
   <title>5K Race Prep Plan — Zoe Gagnon</title>
 </svelte:head>
 
+<style>
+  @media print {
+    :global(.fixed) { display: none !important; }
+    :global(.h-64) { display: none !important; }
+    :global(.flex.flex-row.justify-around) { display: block !important; }
+    .no-print { display: none !important; }
+    .week-body-print { display: block !important; }
+    .week-header-print { display: block !important; }
+    .print-break-inside-avoid { break-inside: avoid; }
+  }
+</style>
+
 <div class="font-urbanist max-w-xl mx-auto px-4 py-8">
   <h2 class="text-2xl font-bold">5K Race Prep Plan</h2>
   <p class="text-stone-400 text-sm mt-1">10-week progressive build · effort over pace</p>
 
-  <div class="flex gap-3 items-end flex-wrap mt-6">
+  <div class="flex gap-3 items-end flex-wrap mt-6 no-print">
     <div>
       <label class="font-semibold text-sm block mb-1">Goal 5K pace</label>
       <div class="flex items-center gap-1">
@@ -191,26 +203,25 @@
   {#each phases as phase, pi}
     <div class="text-xs uppercase tracking-wider text-stone-500 font-bold mt-6 mb-2">{phase.title}</div>
     {#each phase.weeks as week, wi}
-      <div class="bg-white rounded-lg border border-stone-200 mb-3 overflow-hidden">
-        <button class="w-full px-3 py-2.5 font-bold text-sm bg-stone-100 hover:bg-stone-200 cursor-pointer flex justify-between items-center"
+      <div class="bg-white rounded-lg border border-stone-200 mb-3 overflow-hidden print-break-inside-avoid">
+        <button class="w-full px-3 py-2.5 font-bold text-sm bg-stone-100 hover:bg-stone-200 cursor-pointer flex justify-between items-center no-print"
                 on:click={() => toggle(pi, wi)}>
           {week.name}
           <span class="text-xs text-stone-400 transition-transform" class:rotate-90={week.open}>▶</span>
         </button>
-        {#if week.open}
-          <div class="px-3">
-            {#each week.days as d, di}
-              <div class="py-1.5 text-sm {di < week.days.length - 1 ? 'border-b border-stone-200' : ''}">
-                <span class="font-semibold inline-block w-12">{d.day}</span>
-                <span class="inline-block text-xs font-semibold px-1.5 py-0.5 rounded mr-1 {tagClasses[d.tag]}">{d.tag}</span>
-                {d.text}
-                {#if d.pace}
-                  <span class="text-stone-700 font-semibold">({d.pace})</span>
-                {/if}
-              </div>
-            {/each}
-          </div>
-        {/if}
+        <div class="px-3 py-1 font-bold text-sm hidden week-header-print">{week.name}</div>
+        <div class="px-3 week-body-print" class:hidden={!week.open}>
+          {#each week.days as d, di}
+            <div class="py-1.5 text-sm {di < week.days.length - 1 ? 'border-b border-stone-200' : ''}">
+              <span class="font-semibold inline-block w-12">{d.day}</span>
+              <span class="inline-block text-xs font-semibold px-1.5 py-0.5 rounded mr-1 {tagClasses[d.tag]}">{d.tag}</span>
+              {d.text}
+              {#if d.pace}
+                <span class="text-stone-700 font-semibold">({d.pace})</span>
+              {/if}
+            </div>
+          {/each}
+        </div>
       </div>
     {/each}
   {/each}
